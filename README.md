@@ -4,8 +4,6 @@
 2. debian 13
 3. hdmi线正常使用，使用过程发现BSP不支持npu，没有npu的overlays，选择本地编译。
 
-- 固件适配taishanpai RK3566.
-
 - 配置环境
 
   - 1过程一直都是cpu在跑，gpu可以跑这个吗，后面有时间想修改一下)在wsl2 ubuntu24.04环境下编译运行。
@@ -77,7 +75,7 @@
 
   ![image-20260105165821307](https://gitee.com/tu-liangxiang/pic-img/raw/master/blog/image-20260105165821307.png)
 
-  解压烧录，泰山派更好armbian需要进 [MASKROM升级模式](https://niconiconi.fun/2025/11/14/compile-amlogic-s9xxx-armbian/`https://wiki.lckfb.com/zh-hans/tspi-rk3566/system-usage/img-download.html#maskrom升级模式`)进行升级，可以擦除升级。用户密码root:1234 后面就修改密码创建用户和arm流程一样
+  解压烧录，需要进 [MASKROM升级模式](https://niconiconi.fun/2025/11/14/compile-amlogic-s9xxx-armbian/`https://wiki.lckfb.com/zh-hans/tspi-rk3566/system-usage/img-download.html#maskrom升级模式`)进行升级，可以擦除升级。用户密码root:1234 后面就修改密码创建用户和arm流程一样
 
 - 
 
